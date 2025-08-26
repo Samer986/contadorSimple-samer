@@ -1,0 +1,53 @@
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.counter-inner {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.clock-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border: 6px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.clock-emoji {
+  color: white;
+  font-size: 40px;
+}
+
+
+.digit-box {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border: 6px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digit {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+}
